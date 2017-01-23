@@ -1,5 +1,6 @@
 # TicTacToe
 TicTacToe game using Elixir and Phoenix
+This application was created using LearnPhoenix.tv.
 
 To start your Phoenix app:
 
