@@ -8,7 +8,7 @@ export default class Board {
   }
 
   draw (domElement) {
-    domElement.innerHTML = "<ul><li data-x='0' data-y='0'><span>${this.state[0][0] || ''}</span></li><li data-x='0' data-y='1'><span>${this.state[0][1] || ''}</span></li><li data-x='0' data-y='2'><span>${this.state[0][2] || ''}</span></li><li data-x='1' data-y='0'><span>${this.state[1][0] || ''}</span></li><li data-x='1' data-y='1'><span>${this.state[1][1] || ''}</span></li><li data-x='1' data-y='2'><span>${this.state[1][2] || ''}</span></li><li data-x='2' data-y='0'><span>${this.state[2][0] || ''}</span></li><li data-x='2' data-y='1'><span>${this.state[2][1] || ''}</span></li><li data-x='2' data-y='2'><span>${this.state[2][2] || ''}</span></li></ul>"
+    domElement.innerHTML = `<ul><li data-x='0' data-y='0'><span>${this.state[0][0] || ''}</span></li><li data-x='0' data-y='1'><span>${this.state[0][1] || ''}</span></li><li data-x='0' data-y='2'><span>${this.state[0][2] || ''}</span></li><li data-x='1' data-y='0'><span>${this.state[1][0] || ''}</span></li><li data-x='1' data-y='1'><span>${this.state[1][1] || ''}</span></li><li data-x='1' data-y='2'><span>${this.state[1][2] || ''}</span></li><li data-x='2' data-y='0'><span>${this.state[2][0] || ''}</span></li><li data-x='2' data-y='1'><span>${this.state[2][1] || ''}</span></li><li data-x='2' data-y='2'><span>${this.state[2][2] || ''}</span></li></ul>`
 
     document.querySelectorAll('#board ul li').forEach((li) => {
       li.addEventListener('click', (event) => {

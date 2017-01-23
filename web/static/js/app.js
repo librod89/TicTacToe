@@ -31,5 +31,5 @@ channel.on('your_turn', payload => {
 })
 
 channel.on('winner', payload => {
-  alert("${payload.player || 'No one'} wins!")
+  alert(`${payload.player || 'No one'} wins!`)
 })
