@@ -1,4 +1,5 @@
 # TicTacToe
+TicTacToe game using Elixir and Phoenix
 
 To start your Phoenix app:
 
